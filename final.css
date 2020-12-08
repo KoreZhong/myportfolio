@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+#logo{
+    position:absolute;
+    left: 44%;
+    top:60px;
+}
+
+#logo path:nth-child(1){
+  stroke-dasharray: 180;
+  stroke-dashoffset: 180 ;
+  animation: logo-anim 2s ease forwards;
+}
+
+#logo path:nth-child(2){
+    stroke-dasharray: 260;
+    stroke-dashoffset: 260 ;
+    animation: logo-anim 2s ease forwards 0.3s;
+}
+
+#logo path:nth-child(3){
+    stroke-dasharray: 160;
+    stroke-dashoffset: 160 ;
+    animation: logo-anim 2s ease forwards 0.6s;
+}
+
+#logo path:nth-child(4){
+    stroke-dasharray: 280;
+    stroke-dashoffset: 280 ;
+    animation: logo-anim 2s ease forwards 0.9s;
+}
+
+
+#logo path:nth-child(5){
+   stroke-dasharray: 260; 
+   stroke-dashoffset: 260 ;
+   animation: logo-anim 2s ease forwards 1.2s;
+}
+
+
+#logo path:nth-child(6){
+    stroke-dasharray: 150;
+    stroke-dashoffset: 150 ;
+    animation: logo-anim 2s ease forwards 1.5s;
+}
+
+#logo path:nth-child(7){
+    stroke-dasharray: 190;
+    stroke-dashoffset: 190 ;
+    animation: logo-anim 2s ease forwards 1.8s;
+}
+
+#logo path:nth-child(8){
+    stroke-dasharray: 260;
+    stroke-dashoffset: 260 ;
+    animation: logo-anim 2s ease forwards 2.1s;
+}
+
+
+@keyframes logo-anim{
+to{
+    stroke-dashoffset:0;
+}
+
+}
+#song1{
+    font-family: Arial Rounded;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 15px;
+    text-align: center;
+    color:#7B7B7B;
+    display:inline;
+}
+
+#song2,#song3,#song4{
+
+    font-family: Arial Rounded;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 15px;
+    text-align: center;
+    color:#7B7B7B;
+    display:none;
+}
+
+#one{
+    display:inline;
+}
+#two,#three,#four{
+    display:none;
+}
+
+
+#name{
+    font-family: Arial Rounded;
+    font-weight: bold;
+    font-size: 6px;
+    line-height: 15px;
+    text-align: center;
+    color:#7B7B7B;
+    display:none;
+    width: 430px;
+    height: 125px;
+    
+    
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 6px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: #E1E6EC;
+    box-shadow: 5px 5px 11px #A2B1C6 , -5px -5px 11px  #fff  ;
+    text-align: center;
+    
+}
+
+
+
+.interaction{
+
+    position: absolute ;
+  /*  left: 100%;
+    bottom: 100%;
+  
+*/
+    width: 430px;
+    height: 125px;
+    left: 1000px;
+    top: 600px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: lighter;
+font-size: 6px;
+line-height: 20px;
+
+color: gray;
+background-color:#D1D1D1;
+}
+
+
+
+.wrapper{
+    position: relative;
+}
+.container img{
+    width: 80%;
+   
+}
+.container h1{
+    font-size: 12px;
+    margin: 12px 0 12px 0;
+}
+.buttons{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.buttons button{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+    border-radius: 90px;
+    background-color: #E1E6EC;
+    text-align: left;
+    margin: 10px 9px;
+    border: none;
+    box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff  ;
+    /*background:linear-gradient(-45deg,#a2b1c6,#fff);*/
+}
+.buttons button:active{
+    background: #E1E6EC;
+    box-shadow: inset 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff  ;
+}
+.buttons button img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 42%;
+    height: 42%;
+}
+
+.level{
+    width: 80%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #E1E6EC;
+    box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 11px  #fff  ;
+    border-radius: 50px;
+    margin: 12px 0;
+}
+.level::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: #A2B1C6;
+    box-shadow: 2px 2px 5px #A2B1C6 , -2px -2px 5px  #fff  ;
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    border-radius: 90px;
+}
+.level::-moz-range-thumb{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+}
+/* Dropdown button */
+.dropdown1 .dropbtn1 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown2 .dropbtn2 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown1:hover .dropbtn1 {
+  background-color: pink;
+}
+
+.navbar a:hover, .dropdown2:hover .dropbtn2 {
+  background-color: pink;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content1 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}

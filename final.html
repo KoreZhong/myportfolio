@@ -1,0 +1,92 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS Final</title>
+	<link rel="stylesheet" href="./final.css">
+	<script src="./p5.min.js"></script> 
+	<script src="./Final.js"></script> 
+
+<body>
+<div id='canvas-wrapper'></div> 
+
+
+<div class= 'interaction'>
+        <div id='mouse'><h1> ·Mousepressd 1：Draw continuous rectangles and ellipses.</h1></div>
+        <div id='number'><h1> ·Keypressd：change the size of the rectangles and ellipses <p> (Keyboard 1 for increase the size, Keyboard 2 for decrease the size.</p></h1></div>
+        <div id='click'><h1> ·Mouseclick：Draw the rectangles and ellipses.</h1></div>
+        <div id='move'><h1> ·Mouseclick：Leave current mouse position by drawing a white ellipses.</h1></div>
+        <div id='draw'><h1> ·Mousepressed 2：Trace mouse movements with gradient line.</h1></div>
+        <div id= 'name'><h1>Kore's music time</h1></div>
+</div>
+
+
+<div class="navbar">
+  <a href="port.html">Home</a>
+  <div class="dropdown1">
+    <button class="dropbtn1">Coding Works
+      <i class="fa fa-caret-down1"></i>
+    </button>
+    <div class="dropdown-content1">
+     <a href="./helloworld.html">HTML Poem project</a>
+    <a href="./poem project/Start.html">HTML CYOA games project</a>
+    <a href="./index.html">CSS Gargen project</a>
+    <a href="./tem.html">JS Time project</a>
+    <a href="./final.html">JS Generative Project</a>
+    </div>
+  </div>
+
+<div class="dropdown2">
+    <button class="dropbtn2">Typographic Works
+      <i class="fa fa-caret-down2"></i>
+    </button>
+    <div class="dropdown-content2">
+      <div class="dropdown-content2">
+     <a href="./Cropped Letter.html">Cropped Letters</a>
+    <a href="./Mantra.html">Dynamic Words + Mantra Merch</a>
+    <a href="./Mani.html">Manifesto Poster</a>
+    <a href="./Wiki.html">WikiBook</a>
+    <a href="./poster.html">Poster Exersices</a>
+    </div>
+  </div>
+</div>
+
+	
+	<div class="container">
+	
+    <div id='song1'> <h1>Sunny Rain</h1></div>
+    <div id='song2'><h1>Losing My Cool</h1></div>
+    <div id='song3'><!-- <a href='lyrics4.html'> --><h1>Soft Sweets</h1><!-- </a> --></div>
+    <div id='song4'><h1>Seaside Motel</h1></div>
+
+            <img id="one" src=./album.jpg>
+            <img id="two" src=./album2.jpg>
+            <img id="three" src=./album3.jpg>
+            <img id="four" src=./album4.jpg>
+
+            <input id="range" class="level" type="range" value="0" min="0">
+            
+            <div class="buttons">
+                <button id="pre"><img src="rewind.png"></button>
+                <button id="play"><img id="play_img" src="play.png"></button>
+                <button id="next"><img src="fast-forward.png"></button>
+            </div>
+        </div>
+
+
+
+        <svg id="logo" width="173" height="124" viewBox="0 0 173 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M31.4062 35.125H12.3438L8.0625 47H1.875L19.25 1.5H24.5L41.9062 47H35.75L31.4062 35.125ZM14.1562 30.1875H29.625L21.875 8.90625L14.1562 30.1875Z" stroke="white" stroke-width="2.5" mask="url(#path-1-outside-1)"/>
+    <path d="M69.8337 25.8438L64.2712 31.625V47H58.2712V1.5H64.2712V24L84.49 1.5H91.74L73.8337 21.5938L93.1462 47H85.9587L69.8337 25.8438Z" stroke="white" stroke-width="2.5" mask="url(#path-1-outside-1)"/>
+    <path d="M115.074 47H109.074V1.5H115.074V47Z" stroke="white" stroke-width="2.5" mask="url(#path-1-outside-1)"/>
+    <path d="M171.283 47H165.251L142.345 11.9375V47H136.314V1.5H142.345L165.314 36.7188V1.5H171.283V47Z" stroke="white" stroke-width="2.5" mask="url(#path-1-outside-1)"/>
+    <path d="M17.8438 100.844L12.2812 106.625V122H6.28125V76.5H12.2812V99L32.5 76.5H39.75L21.8438 96.5938L41.1562 122H33.9688L17.8438 100.844Z" stroke="white" stroke-width="2.5" mask="url(#path-1-outside-1)"/>
+    <path d="M84.8862 100.719C84.8862 105.177 84.1362 109.073 82.6362 112.406C81.1362 115.719 79.0112 118.25 76.2612 120C73.5112 121.75 70.3029 122.625 66.6362 122.625C63.0529 122.625 59.8758 121.75 57.105 120C54.3342 118.229 52.1779 115.719 50.6362 112.469C49.1154 109.198 48.3342 105.417 48.2925 101.125V97.8438C48.2925 93.4688 49.0529 89.6042 50.5737 86.25C52.0946 82.8958 54.2404 80.3333 57.0112 78.5625C59.8029 76.7708 62.9904 75.875 66.5737 75.875C70.2196 75.875 73.4279 76.7604 76.1987 78.5312C78.9904 80.2812 81.1362 82.8333 82.6362 86.1875C84.1362 89.5208 84.8862 93.4062 84.8862 97.8438V100.719ZM78.9175 97.7812C78.9175 92.3854 77.8342 88.25 75.6675 85.375C73.5008 82.4792 70.4696 81.0312 66.5737 81.0312C62.7821 81.0312 59.7925 82.4792 57.605 85.375C55.4383 88.25 54.3237 92.25 54.2612 97.375V100.719C54.2612 105.948 55.355 110.062 57.5425 113.062C59.7508 116.042 62.7821 117.531 66.6362 117.531C70.5112 117.531 73.5112 116.125 75.6362 113.312C77.7612 110.479 78.855 106.427 78.9175 101.156V97.7812Z" stroke="white" stroke-width="2.5" mask="url(#path-1-outside-1)"/>
+    <path d="M115.054 103.594H104.366V122H98.335V76.5H113.397C118.522 76.5 122.46 77.6667 125.21 80C127.981 82.3333 129.366 85.7292 129.366 90.1875C129.366 93.0208 128.595 95.4896 127.054 97.5938C125.533 99.6979 123.408 101.271 120.679 102.312L131.366 121.625V122H124.929L115.054 103.594ZM104.366 98.6875H113.585C116.564 98.6875 118.929 97.9167 120.679 96.375C122.45 94.8333 123.335 92.7708 123.335 90.1875C123.335 87.375 122.491 85.2188 120.804 83.7188C119.137 82.2188 116.72 81.4583 113.554 81.4375H104.366V98.6875Z" stroke="white" stroke-width="2.5" mask="url(#path-1-outside-1)"/>
+    <path d="M168.003 100.969H148.284V117.094H171.19V122H142.284V76.5H170.878V81.4375H148.284V96.0625H168.003V100.969Z" stroke="white" stroke-width="2.5" mask="url(#path-1-outside-1)"/>
+    </svg>
+
+    
+</body>
+</head>
+</html>
