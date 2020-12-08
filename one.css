@@ -1,0 +1,856 @@
+body{
+	overflow-x:hidden;
+	width: 1440px;
+	height: 990px;
+	background: #BCBCBC;
+	
+}
+
+#bg {
+	position: relative;
+width: 100%;
+height: 100%;
+background: #BCBCBC;
+
+}
+
+
+#name{
+	font-family: Arial Rounded;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 10px;
+text-align: center;
+color:#7B7B7B;
+}
+
+#Number1{
+position: absolute;
+width: 377px;
+height: 350px;
+top:1150px;
+right:0px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 118.029px;
+line-height: 22px;
+/* or 19% */
+
+text-align: center;
+
+color: #000000;
+
+animation-name: hi;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+#Number2{
+	position: absolute;
+width: 377px;
+height: 350px;
+top:1650px;
+right:0px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 118.029px;
+line-height: 22px;
+/* or 19% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+animation-name: hi;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+#Number3{
+	position: absolute;
+width: 377px;
+height: 350px;
+top:2480px;
+right:80px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 118.029px;
+line-height: 22px;
+/* or 19% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+animation-name: hi;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+}
+
+
+#title{
+
+
+	position: absolute;
+width: 1436px;
+height: 389px;
+top:0px;
+
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 30px;
+/* or 30% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+
+#orange{
+	position: absolute;
+width: 277px;
+height: 800px;
+top:300px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 28.0319px;
+line-height: 30px;
+text-align: center;
+
+
+color: #000000;
+
+position: absolute;
+width: 289px;
+height: 408px;
+
+background: radial-gradient(50% 50% at 50% 50%, #FF8058 52.08%, rgba(255, 173, 148, 0) 100%);
+}
+
+#orange span{
+	margin-top:180px;
+display: block;
+font-weight:thin;
+}
+
+#yellow{
+	position: absolute;
+width: 290px;
+height: 408px;
+top:300px;
+left:310px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 34px;
+line-height: 30px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+position: absolute;
+width: 290px;
+height: 408px;
+top:300px;
+left:300px;
+
+background: radial-gradient(50% 50% at 50% 50%, #FFF857 28.65%, rgba(255, 252, 173, 0) 100%);
+}
+
+#yellow span{
+	margin-top:100px;
+	display: block;
+}
+
+#pink{
+	position: absolute;
+width: 290px;
+height: 408px;
+top:300px;
+left:820px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 29.5072px;
+line-height: 22px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+position: absolute;
+width: 290px;
+height: 408px;
+
+background: radial-gradient(50% 50% at 50% 50%, #FABCFF 43.23%, rgba(250, 188, 255, 0) 100%);
+}
+#pink span{
+	margin-top: 40px;
+	display: block;
+	font-style: italic;
+	font-size: 25px;
+}
+
+
+#red{
+	position: absolute;
+width: 270px;
+height: 456px;
+top:300px;
+left:1100px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 29.5072px;
+line-height: 22px;
+/* or 75% */
+
+display: flex;
+
+text-align: center;
+
+color: #000000;
+
+position: absolute;
+width: 289px;
+height: 408px;
+
+background: radial-gradient(50% 50% at 50% 50%, #F97585 36.98%, rgba(255, 201, 207, 0) 100%);
+}
+
+#red span{
+	margin-top: 200px;
+	display: block;
+	font-size: 20px;
+}
+
+
+
+#top{
+	position: absolute;
+width: 100%;
+height: 595px;
+top:40px;
+}
+
+#image2{
+
+	position: absolute;
+width: 300px;
+height: 408px;
+top:350px;
+left:610px;
+}
+
+#image1{
+	position: absolute;
+width: 720px;
+height: 460px;
+top:800px;
+right:0px;
+}
+
+#image7{
+
+	position: absolute;
+width: 730px;
+height: 428px;
+top:1350px;
+left:0px;
+}
+
+#image8{
+	position: absolute;
+width: 987px;
+height: 606px;
+top:1910px;
+left:0px;
+}
+
+#image9{
+	position: absolute;
+width: 360px;
+height: 218px;
+top:150px;
+right:30px;
+}
+.body1{ 
+
+position: absolute;
+width: 720px;
+height: 426px;
+top:800px;
+
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* or 150% */
+text-align: center;
+
+
+color: #000000; 
+
+position: absolute;
+width: 720px;
+height: 405.9px;
+
+background: #FF005C
+
+}
+
+.body2{
+
+	position: absolute;
+width: 716px;
+height: 428px;
+
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* or 150% */
+
+text-align: center;
+align-items: center;
+
+color: #000000;
+
+position: absolute;
+width: 716px;
+height: 405.7px;
+top:1350px;
+right:0px;
+
+background: #7000FF;
+
+}
+
+#body3{
+	position: absolute;
+width: 453px;
+height: 667px;
+top:1910px;
+right:0px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 23px;
+/* or 48% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+position: absolute;
+width: 453px;
+height: 657.5px;
+
+background: #0018F4;
+}
+
+#body4{
+	position: absolute;
+width: 1440px;
+height: 273px;
+top:2600px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-align: justify;
+
+
+color: rgba(189, 0, 255, 0.29);
+
+}
+
+#vector3{
+	position: absolute;
+width: 370px;
+height: 169px;
+top:2600px;
+left:250px;
+
+}
+
+#body5{
+	position: absolute;
+width: 1000px;
+height: 500px;
+top:2900px;
+text-align: center;
+left:250px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
+
+#rectangle{
+	position: absolute;
+width: 3879px;
+height: 6103px;
+top:2550px;
+left:250px;
+}
+
+
+#rectangle5{
+	position: absolute;
+width: 1000px;
+height: 500px;
+top:2880px;
+left:250px;
+}
+
+#body6{
+
+		position: absolute;
+width: 1440px;
+height: 273px;
+top:3950px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+text-align: justify;
+
+
+	background: rgb(100,0,255);
+background: radial-gradient(circle, rgba(100,0,255,1) 0%, rgba(231,255,0,1) 100%);
+}
+
+#vector4{
+	position: absolute;
+width: 1200px;
+height: 356px;
+top:4230px;
+animation-name: hello;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+#image5{
+	position: absolute;
+width: 1200px;
+height: 356px;
+top:4300px;
+left:285px;
+}
+
+#body7{
+	position: absolute;
+width: 1000px;
+height: 356px;
+top:4400px;
+left:200px;
+
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+
+color:white;
+}
+
+#body8{
+	position: absolute;
+width: 1000px;
+height: 356px;
+top:4800px;
+left:200px;
+
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+
+color:white;
+}
+
+#Number4{
+	position: absolute;
+width: 377px;
+height: 350px;
+top:4500px;
+right:90px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 118.029px;
+line-height: 22px;
+/* or 19% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+animation-name: hi;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+
+
+#image6{
+position: absolute;
+	width: 1234px;
+height: 856px;
+top:5050px;
+left:300px;
+}
+
+#body9{
+	position: absolute;
+width: 1234px;
+height: 856px;
+top:5000px;
+left:83px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 30px;
+/* or 273% */
+
+text-align: justify;
+background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+#Number5{
+		position: absolute;
+width: 377px;
+height: 350px;
+top:5650px;
+right:90px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 118.029px;
+line-height: 22px;
+/* or 19% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+animation-name: hi;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+}
+
+#titlebody10{
+	position: absolute;
+width: 1234px;
+height: 856px;
+top:5800px;
+left:83px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 30px;
+}
+#video{
+	position: absolute;
+	top:5900px;
+	left:400px;
+}
+
+#body10{
+
+	position: absolute;
+width: 453px;
+height: 362px;
+top:6350px;
+left:250px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 30px;
+/* or 273% */
+
+text-align: justify;
+
+color: #FA0096
+}
+
+#body11{
+	position: absolute;
+width: 460px;
+height: 420px;
+top:6520px;
+left:550px;
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 30px;
+/* or 273% */
+
+text-align: justify;
+
+color: #FFDEEE;
+}
+
+#star{
+	position: absolute;
+width: 241px;
+height: 270px;
+top:6400px;
+left:930px;
+animation-name: star;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+
+}
+
+#doll{
+	position: absolute;
+	top:7000px;
+	left:300px;
+}
+
+#Vector2{
+	position: absolute;
+	top:7300px;
+	left:700px;
+}
+#Vector5{
+position: relative;
+	top:7700px;
+	left:5px;
+
+}
+@keyframes star{
+	0%{ transform: translateY(100px); 
+	
+	}
+	25%{transform: translateY(50px);
+		
+	}
+	50%{transform:translateX(25px);
+		
+	}
+	75%{
+		transform:translateY(50px);
+	
+	}
+	100%{
+		transform: translateY(100px);
+	}	
+}
+
+@keyframes hi{
+	0%{ transform: translateX(100px); 
+		color:purple;
+	}
+	25%{transform: translateX(50px);
+		color:blue;
+	}
+	50%{transform:translateX(25px);
+		color:black;
+	}
+	75%{
+		transform:translateX(50px);
+		color:blue;
+	}
+	100%{
+		transform: translateX(100px);
+		color:purple;
+	}
+}
+
+@keyframes hello{
+	0%{ transform: translateX(100px); 
+		color:purple;
+	}
+	25%{transform: translateY(300px);
+		color:blue;
+	}
+	50%{transform:translateX(500px);
+		color:black;
+	}
+	75%{
+		transform:translateX(700px);
+		color:blue;
+	}
+	100%{
+		transform: translateX(900px);
+		color:purple;
+	}
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+}
+/* Dropdown button */
+.dropdown1 .dropbtn1 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown2 .dropbtn2 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown1:hover .dropbtn1 {
+  background-color: pink;
+}
+
+.navbar a:hover, .dropdown2:hover .dropbtn2 {
+  background-color: pink;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content1 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}

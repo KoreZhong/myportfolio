@@ -1,0 +1,240 @@
+#bg{
+position: relative;
+width: 1440px;
+height: 2200px;
+left: 0px;
+
+
+background: #000000;
+}
+
+#title{
+
+	position: absolute;
+width: 1300px;
+height: 80px;
+left:55px;
+top: 100px;
+
+font-family: Emblema One;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 50px;
+/* or 111% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+#body1{
+	position: absolute;
+width: 828px;
+height: 208px;
+left: 304px;
+top: 251px;
+
+font-family: Emblema One;
+font-style: normal;
+font-weight: normal;
+font-size: 3px;
+line-height: 12px;
+/* or 133% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+
+
+#body2{
+
+	position: absolute;
+width: 1000px;
+height: 1031px;
+left: 230px;
+top: 420px;
+
+font-family: Emblema One;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 15px;
+/* or 83% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+
+#body2 span{
+
+	font-size: 20px;
+}
+
+
+#big{
+
+
+position: absolute;
+width: 1128px;
+height: 1255px;
+left: 100px;
+top: 250px;
+}
+
+#C2{
+
+	position: absolute;
+width: 47px;
+height: 47px;
+left: 1147px;
+top: 583px;
+}
+
+#C3{
+
+	position: absolute;
+width: 24px;
+height: 24px;
+left: 165px;
+top: 279px;
+
+}
+
+#C1{
+	position: absolute;
+width: 211px;
+height: 211px;
+left: 304px;
+top: 1252px;
+}
+
+#image{
+
+position: absolute;
+width: 818px;
+height: 460px;
+left: 304px;
+top: 1630px;
+}
+
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown2 {
+  float: left;
+  overflow: hidden;
+}
+/* Dropdown button */
+.dropdown1 .dropbtn1 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown2 .dropbtn2 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown1:hover .dropbtn1 {
+  background-color: pink;
+}
+
+.navbar a:hover, .dropdown2:hover .dropbtn2 {
+  background-color: pink;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content2 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content1 a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+}
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
